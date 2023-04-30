@@ -1,0 +1,93 @@
+html, body {
+    margin:0;
+    height:100%;
+    text-align: center;
+    color: white;
+    font-family: "Helvetica Neue", "Arial", sans-serif;
+    text-shadow:rgb(99, 99, 99) 1px 0 10px;
+    font-size: 30px;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+    text-align: center;
+  }  
+input { 
+    padding: 0;
+	background: none;
+	border-radius: 0;
+	outline: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none; 
+    color:inherit;
+    font-size: inherit;
+    text-shadow: inherit;
+    
+}
+ 
+input[type=text] {   
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    border-bottom: white 1px solid;
+}
+input[type=submit]{
+    border:none;
+    padding:10px;
+    text-align: inherit;
+}
+#login-form {
+    margin: 100px 0 0 0;
+    outline: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none; 
+    color:inherit;
+    font-size: inherit;
+    text-shadow: inherit;
+    text-align: inherit;
+}
+.bodyStyle {
+    /* background-size : cover; */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1 {
+    color : white;
+    transition: color .5s ease-in-out;
+    font-size: 100px;
+    text-shadow: inherit;
+}
+#clock {
+    font-size: 80px;
+    color:inherit;
+    text-shadow: inherit;
+}
+.active {
+    color : tomato;
+    transition: color .5s ease-in-out;
+    text-shadow: inherit;
+}
+.hidden {
+    display: none;
+}
+#quote {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: inherit;
+    position: absolute;
+    bottom: 10%;
+    right:0;
+    left:0;
+}
+/*
+input[type=text].input {
+    padding: 5px 40px;
+    background: none;
+    border-bottom: 1px solid white;
+    font-size:20px;
+}
+*/
